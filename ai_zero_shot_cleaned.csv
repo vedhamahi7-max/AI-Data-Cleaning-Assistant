@@ -1,0 +1,17 @@
+customer_id,full_name,age,gender,country,signup_date,annual_income,purchase_amount,transaction_count,email,phone_number,satisfaction_score,churn
+CUST-1234,Ashley Garcia,70.0,Female,United Kingdom,2021-02-07,-31934.65,48.18,9,ashley.garcia@outlook.com,+1-626-910-8798,4,No
+CUST-2119,Joseph Nelson,18.0,Male,Canada,2024-02-03,60676.72,87.87,12,joseph.nelson@outlook.com,+1-583-365-4748,4,No
+CUST-2164,John White,53.0,Male,australia,2023-12-03,49427.71,143.1,7,john.white@gmail.com,+1-481-479-1571,4,No
+CUST-1712,Dorothy Hernandez,40.0,Prefer not to say,United States,2023-02-05,61267.759324074075,57.64,4,dorothy.hernandez@gmail.com,+1-680-505-7195,5,No
+CUST-1763,George Nguyen,66.0,Male,Australia,2021-07-08,106084.16,160.49,3,george.nguyen@outlook.com,+19957989744,1,No
+CUST-1810,James Thomas,36.0,Male,United States,2023-01-11,39089.25,82.79,6,james.thomas@gmail.com,+1-407-367-2023,5,No
+CUST-2166,Kevin Wilson,36.0,Female,Germany,2022-11-02,49228.77,35.41,8,kevin.wilson@gmail.com,(977) 240-3559,2,Yes
+CUST-1093,Elizabeth Mitchell,38.0,Female,Canada,2021-07-08,103957.61,175.25,8,elizabeth.mitchell@outlook.com,+16555685419,3,No
+CUST-1250,Ms Dangelo Davis,50.0,Female,Australia,2021-05-02,61267.759324074075,485.59,1,none@none,+1-795-259-3394,3,Yes
+CUST-1336,Christopher Harris,35.0,Male,United Kingdom,2022-12-06,59687.06,518.07,7,christopher.harris@gmail.com,+1-881-339-9757,4,No
+CUST-1023,Susan Robinson,38.0,Male,Canada,2021-10-12,72505.34,323.65,1,susan.robinson@gmail.com,+1-996-367-6096,2,No
+CUST-1570,Dr Patricia Thompson,44.0,Female,Germany,2023-07-06,61267.759324074075,113.47,10,patricia.thompson@icloud.com,+12416902110,3,No
+CUST-1793,Jeanluc Garcia,24.0,f,United States,2024-09-04,82800.48,31.02,3,jeanluc.garcia@icloud.com,+1-685-384-7157,5,No
+CUST-2082,William White,25.0,Female,United States,2023-10-09,75384.25,111.93,50,william.white@icloud.com,+1-763-742-8317,4,No
+CUST-1649,Mr Dangelo Williams,18.0,Female,Canada,2022-11-09,52650.56,198.87,5,dangelo.williams@icloud.com,+1-860-283-6254,2,No
+CUST-1167,Dr Joshua Nguyen,36.0,Female,Germany,2023-01-03,102657.59,78.0,9,joshua.nguyen@gmail.com,+1-407-735-9263,4,Yes

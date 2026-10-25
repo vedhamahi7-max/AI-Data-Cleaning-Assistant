@@ -1,0 +1,62 @@
+{
+    "ChatGPT Zero-Shot": {
+        "total_rows": 16,
+        "row_retention_pct": 1.27,
+        "refund_transactions_retained": 0,
+        "refund_retention_pct": 0.0,
+        "name_special_char_integrity_pct": 0.0,
+        "date_iso_conformance_pct": 100.0,
+        "gender_canonical_pct": 93.75,
+        "country_canonical_pct": 93.75,
+        "income_wasserstein_distance": 7571.99,
+        "income_ks_pvalue": 0.5576,
+        "age_wasserstein_distance": 3.36,
+        "age_ks_pvalue": 0.9046,
+        "composite_reliability_score": 10.0
+    },
+    "Gemini Prompt-Engineered": {
+        "total_rows": 1173,
+        "row_retention_pct": 93.1,
+        "refund_transactions_retained": 83,
+        "refund_retention_pct": 85.57,
+        "name_special_char_integrity_pct": 96.83,
+        "date_iso_conformance_pct": 100.0,
+        "gender_canonical_pct": 100.0,
+        "country_canonical_pct": 100.0,
+        "income_wasserstein_distance": 2161.02,
+        "income_ks_pvalue": 0.0372,
+        "age_wasserstein_distance": 1.04,
+        "age_ks_pvalue": 0.0523,
+        "composite_reliability_score": 100.0
+    },
+    "Reusable Pipeline": {
+        "total_rows": 1173,
+        "row_retention_pct": 93.1,
+        "refund_transactions_retained": 78,
+        "refund_retention_pct": 80.41,
+        "name_special_char_integrity_pct": 96.83,
+        "date_iso_conformance_pct": 100.0,
+        "gender_canonical_pct": 100.0,
+        "country_canonical_pct": 100.0,
+        "income_wasserstein_distance": 3715.82,
+        "income_ks_pvalue": 0.3553,
+        "age_wasserstein_distance": 1.04,
+        "age_ks_pvalue": 0.0523,
+        "composite_reliability_score": 100.0
+    },
+    "Manual Ground Truth": {
+        "total_rows": 1200,
+        "row_retention_pct": 95.24,
+        "refund_transactions_retained": 97,
+        "refund_retention_pct": 100.0,
+        "name_special_char_integrity_pct": 100.0,
+        "date_iso_conformance_pct": 100.0,
+        "gender_canonical_pct": 100.0,
+        "country_canonical_pct": 100.0,
+        "income_wasserstein_distance": 0.0,
+        "income_ks_pvalue": 1.0,
+        "age_wasserstein_distance": 0.0,
+        "age_ks_pvalue": 1.0,
+        "composite_reliability_score": 100.0
+    }
+}

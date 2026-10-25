@@ -1,0 +1,270 @@
+{
+    "ChatGPT Zero-Shot": {
+        "candidate_name": "ChatGPT Zero-Shot",
+        "schema_checks": {
+            "missing_columns": [],
+            "id_null_count": 0,
+            "is_income_numeric": true,
+            "is_age_numeric": true,
+            "date_iso_conformance_pct": 100.0,
+            "passed_schema": true
+        },
+        "integrity_checks": {
+            "names_preserving_hyphens_apostrophes": 0,
+            "negative_refund_transactions": 0,
+            "duplicate_customer_ids": 0,
+            "passed_integrity": false
+        },
+        "statistical_preservation": {
+            "annual_income": {
+                "ks_statistic": 0.19,
+                "ks_pvalue": 0.5576,
+                "wasserstein_distance": 7571.99,
+                "distribution_preserved": true
+            },
+            "age": {
+                "ks_statistic": 0.1342,
+                "ks_pvalue": 0.9046,
+                "wasserstein_distance": 3.36,
+                "distribution_preserved": true
+            },
+            "purchase_amount": {
+                "ks_statistic": 0.1858,
+                "ks_pvalue": 0.5852,
+                "wasserstein_distance": 50.24,
+                "distribution_preserved": true
+            }
+        },
+        "responsible_ai_fairness": {
+            "gender_distribution_clean": {
+                "Female": 50.0,
+                "Male": 37.5,
+                "Prefer not to say": 6.25,
+                "f": 6.25
+            },
+            "non_binary_representation_pct": 0.0,
+            "retention_rate_by_raw_gender": {
+                " Fem ": 0.0,
+                " Mal ": 0.0,
+                "F": 13.33,
+                "FEMALE": 0.0,
+                "Female": 1.26,
+                "M": 0.0,
+                "MALE": 0.0,
+                "Male": 1.34,
+                "NB": 0.0,
+                "Non Binary": 0.0,
+                "Non-Binary": 0.0,
+                "Prefer not to say": 5.56,
+                "f": 4.76,
+                "female": 0.0,
+                "m": 0.0,
+                "male": 0.0,
+                "non-binary": 0.0
+            },
+            "income_variance_preservation_ratio": 1.471,
+            "passed_variance_check": true
+        }
+    },
+    "Gemini Prompt-Engineered": {
+        "candidate_name": "Gemini Prompt-Engineered",
+        "schema_checks": {
+            "missing_columns": [],
+            "id_null_count": 0,
+            "is_income_numeric": true,
+            "is_age_numeric": true,
+            "date_iso_conformance_pct": 100.0,
+            "passed_schema": true
+        },
+        "integrity_checks": {
+            "names_preserving_hyphens_apostrophes": 61,
+            "negative_refund_transactions": 83,
+            "duplicate_customer_ids": 0,
+            "passed_integrity": true
+        },
+        "statistical_preservation": {
+            "annual_income": {
+                "ks_statistic": 0.0576,
+                "ks_pvalue": 0.0372,
+                "wasserstein_distance": 2161.02,
+                "distribution_preserved": true
+            },
+            "age": {
+                "ks_statistic": 0.055,
+                "ks_pvalue": 0.0523,
+                "wasserstein_distance": 1.04,
+                "distribution_preserved": true
+            },
+            "purchase_amount": {
+                "ks_statistic": 0.0677,
+                "ks_pvalue": 0.0082,
+                "wasserstein_distance": 12.11,
+                "distribution_preserved": false
+            }
+        },
+        "responsible_ai_fairness": {
+            "gender_distribution_clean": {
+                "Female": 45.78,
+                "Male": 42.37,
+                "Prefer not to say": 7.67,
+                "Non-Binary": 4.18
+            },
+            "non_binary_representation_pct": 4.18,
+            "retention_rate_by_raw_gender": {
+                " Fem ": 100.0,
+                " Mal ": 100.0,
+                "F": 100.0,
+                "FEMALE": 85.71,
+                "Female": 97.48,
+                "M": 100.0,
+                "MALE": 100.0,
+                "Male": 97.1,
+                "NB": 83.33,
+                "Non Binary": 75.0,
+                "Non-Binary": 100.0,
+                "Prefer not to say": 100.0,
+                "f": 100.0,
+                "female": 100.0,
+                "m": 100.0,
+                "male": 100.0,
+                "non-binary": 100.0
+            },
+            "income_variance_preservation_ratio": 0.931,
+            "passed_variance_check": true
+        }
+    },
+    "Reusable Pipeline": {
+        "candidate_name": "Reusable Pipeline",
+        "schema_checks": {
+            "missing_columns": [],
+            "id_null_count": 0,
+            "is_income_numeric": true,
+            "is_age_numeric": true,
+            "date_iso_conformance_pct": 100.0,
+            "passed_schema": true
+        },
+        "integrity_checks": {
+            "names_preserving_hyphens_apostrophes": 61,
+            "negative_refund_transactions": 78,
+            "duplicate_customer_ids": 0,
+            "passed_integrity": true
+        },
+        "statistical_preservation": {
+            "annual_income": {
+                "ks_statistic": 0.0377,
+                "ks_pvalue": 0.3553,
+                "wasserstein_distance": 3715.82,
+                "distribution_preserved": true
+            },
+            "age": {
+                "ks_statistic": 0.055,
+                "ks_pvalue": 0.0523,
+                "wasserstein_distance": 1.04,
+                "distribution_preserved": true
+            },
+            "purchase_amount": {
+                "ks_statistic": 0.0504,
+                "ks_pvalue": 0.0936,
+                "wasserstein_distance": 13.71,
+                "distribution_preserved": true
+            }
+        },
+        "responsible_ai_fairness": {
+            "gender_distribution_clean": {
+                "Female": 45.78,
+                "Male": 42.37,
+                "Prefer not to say": 7.67,
+                "Non-Binary": 4.18
+            },
+            "non_binary_representation_pct": 4.18,
+            "retention_rate_by_raw_gender": {
+                " Fem ": 100.0,
+                " Mal ": 100.0,
+                "F": 100.0,
+                "FEMALE": 85.71,
+                "Female": 97.48,
+                "M": 100.0,
+                "MALE": 100.0,
+                "Male": 97.1,
+                "NB": 83.33,
+                "Non Binary": 75.0,
+                "Non-Binary": 100.0,
+                "Prefer not to say": 100.0,
+                "f": 100.0,
+                "female": 100.0,
+                "m": 100.0,
+                "male": 100.0,
+                "non-binary": 100.0
+            },
+            "income_variance_preservation_ratio": 1.342,
+            "passed_variance_check": true
+        }
+    },
+    "Manual Ground Truth": {
+        "candidate_name": "Manual Ground Truth",
+        "schema_checks": {
+            "missing_columns": [],
+            "id_null_count": 0,
+            "is_income_numeric": true,
+            "is_age_numeric": true,
+            "date_iso_conformance_pct": 100.0,
+            "passed_schema": true
+        },
+        "integrity_checks": {
+            "names_preserving_hyphens_apostrophes": 63,
+            "negative_refund_transactions": 97,
+            "duplicate_customer_ids": 0,
+            "passed_integrity": true
+        },
+        "statistical_preservation": {
+            "annual_income": {
+                "ks_statistic": 0.0,
+                "ks_pvalue": 1.0,
+                "wasserstein_distance": 0.0,
+                "distribution_preserved": true
+            },
+            "age": {
+                "ks_statistic": 0.0,
+                "ks_pvalue": 1.0,
+                "wasserstein_distance": 0.0,
+                "distribution_preserved": true
+            },
+            "purchase_amount": {
+                "ks_statistic": 0.0,
+                "ks_pvalue": 1.0,
+                "wasserstein_distance": 0.0,
+                "distribution_preserved": true
+            }
+        },
+        "responsible_ai_fairness": {
+            "gender_distribution_clean": {
+                "Female": 48.5,
+                "Male": 45.0,
+                "Non-Binary": 4.58,
+                "Prefer not to say": 1.92
+            },
+            "non_binary_representation_pct": 4.58,
+            "retention_rate_by_raw_gender": {
+                " Fem ": 100.0,
+                " Mal ": 100.0,
+                "F": 100.0,
+                "FEMALE": 85.71,
+                "Female": 97.48,
+                "M": 100.0,
+                "MALE": 100.0,
+                "Male": 97.1,
+                "NB": 83.33,
+                "Non Binary": 75.0,
+                "Non-Binary": 100.0,
+                "Prefer not to say": 100.0,
+                "f": 100.0,
+                "female": 100.0,
+                "m": 100.0,
+                "male": 100.0,
+                "non-binary": 100.0
+            },
+            "income_variance_preservation_ratio": 1.0,
+            "passed_variance_check": true
+        }
+    }
+}
